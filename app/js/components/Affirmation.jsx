@@ -4,7 +4,7 @@ export default class Affirmation extends Component {
   render() {
     return (
       <div>
-        Heres an affirmation!!!! :)
+        <h1>Heres an affirmation!!!! :)</h1>
       </div>
     );
   }

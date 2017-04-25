@@ -1,4 +1,6 @@
 const path = require('path');
+const precss = require('precss');
+const autoprefixer = require('autoprefixer');
 
 module.exports = {
   context: __dirname + '/app',
@@ -31,7 +33,16 @@ module.exports = {
       {
         test: /\.html$/,
         loader: 'file?name=[name].[ext]',
+      },
+      {
+        test: /\.scss$/,
+        loader: 'style!css!postcss!sass'
       }
     ]
+  },
+
+  postcss() {
+    return [autoprefixer, precss];
   }
 };
+
