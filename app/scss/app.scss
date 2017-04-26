@@ -2,9 +2,10 @@
 @import '_mixins.scss';
 
 body {
-	background-color: $lt-blue;
+	background-color: $blue;
 	color: $ivory;
 	font-family: $primary-font;
+	padding-bottom: 80px;
 }
 
 h1 {
@@ -22,9 +23,41 @@ h1 {
 .affirmation-container{
 	min-height: 600px;
 	background-color: #eb593c;
+	position: relative;
 
 	h2{
 	  padding: 225px 75px;
 	  margin: 0;
+	}
+
+	.next-btn{
+		position: absolute;
+		bottom: 100px;
+		right: -28px;
+		background-color: $yellow;
+		border-radius: 0;
+		font-size: 24px;
+		font-weight: 600;
+		padding: 8px 15px;
+
+		&:hover, &:focus{
+			color: $blue;
+		}
+	}
+}
+
+.bottom-row{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 20px 0;
+
+	a{
+		color: $yellow;
+
+		&:hover{
+			text-decoration: none;
+			color: $orange;
+		}
 	}
 }
