@@ -3,8 +3,8 @@ import React from 'react';
 class Affirmation extends React.Component {
   render() {
     return (
-      <div>
-        <h2>Im an affirmation! :)</h2>
+      <div className="affirmation-container">
+        <h2>Everything in my life works perfectly. I am grateful for remembering who I really am.</h2>
       </div>
     );
   }

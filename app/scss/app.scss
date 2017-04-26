@@ -1,4 +1,5 @@
 @import 'variables';
+@import '_mixins.scss';
 
 body {
 	background-color: $lt-blue;
@@ -9,4 +10,21 @@ body {
 h1 {
 	color: $orange;
 	font-family: $secondary-font;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.app-container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.affirmation-container{
+	min-height: 600px;
+	background-color: #eb593c;
+
+	h2{
+	  padding: 225px 75px;
+	  margin: 0;
+	}
 }

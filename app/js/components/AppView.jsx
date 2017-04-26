@@ -1,13 +1,15 @@
 import React from 'react';
 import Affirmation from './Affirmation.jsx';
 
-export default class AppView extends React.Component {
+class AppView extends React.Component {
   render() {
     return (
-      <div>
+      <div className="app-container">
         <h1>Positively</h1>
         <Affirmation />
       </div>
     );
   }
 }
+
+export default AppView;
