@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../scss/app.scss';
-import Affirmation from 'components/Affirmation.jsx';
+import AppView from 'components/AppView.jsx';
 
 ReactDOM.render(
-  <Affirmation />,
+  <AppView />,
   document.getElementById('app')
 );

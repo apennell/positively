@@ -1,10 +1,12 @@
 @import 'variables';
 
 body {
-	background-color: $blue;
+	background-color: $lt-blue;
 	color: $ivory;
+	font-family: $primary-font;
 }
 
 h1 {
 	color: $orange;
+	font-family: $secondary-font;
 }

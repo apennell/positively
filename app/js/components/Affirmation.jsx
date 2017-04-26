@@ -1,11 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Affirmation extends Component {
+class Affirmation extends React.Component {
   render() {
     return (
       <div>
-        <p>Heres an affirmation!!!! :)</p>
+        <h2>Im an affirmation! :)</h2>
       </div>
     );
   }
 }
+
+export default Affirmation;
