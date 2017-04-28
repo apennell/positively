@@ -44,6 +44,9 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "concurrently": "^3.4.0",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
     "react": "^15.4.2",
     "react-bootstrap": "^0.30.10",
     "react-dom": "^15.4.2"
